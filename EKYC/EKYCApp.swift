@@ -11,7 +11,7 @@ import SwiftUI
 struct EKYCApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationCoordinator()
         }
     }
 }

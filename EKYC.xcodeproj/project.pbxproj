@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		526ACE7E2EC4A6E200E06486 /* EKYCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526ACE7D2EC4A6E200E06486 /* EKYCApp.swift */; };
-		526ACE802EC4A6E200E06486 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526ACE7F2EC4A6E200E06486 /* ContentView.swift */; };
+		526ACE802EC4A6E200E06486 /* HomeScanID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526ACE7F2EC4A6E200E06486 /* HomeScanID.swift */; };
 		526ACE822EC4A6E400E06486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526ACE812EC4A6E400E06486 /* Assets.xcassets */; };
 		526ACE852EC4A6E400E06486 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526ACE842EC4A6E400E06486 /* Preview Assets.xcassets */; };
+		52F2D9F72EC511AB00D7D590 /* ScanImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F2D9F62EC511AB00D7D590 /* ScanImg.swift */; };
+		52F2D9F92EC51AEB00D7D590 /* NavgiationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F2D9F82EC51AEB00D7D590 /* NavgiationManager.swift */; };
+		52F2D9FB2EC51C1500D7D590 /* CordinatorViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F2D9FA2EC51C1500D7D590 /* CordinatorViews.swift */; };
+		52F2D9FD2EC51D4900D7D590 /* HomeScanFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F2D9FC2EC51D4900D7D590 /* HomeScanFace.swift */; };
+		52F2D9FF2EC51FAD00D7D590 /* ScanFaceID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F2D9FE2EC51FAD00D7D590 /* ScanFaceID.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		526ACE7A2EC4A6E200E06486 /* EKYC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EKYC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		526ACE7D2EC4A6E200E06486 /* EKYCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EKYCApp.swift; sourceTree = "<group>"; };
-		526ACE7F2EC4A6E200E06486 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		526ACE7F2EC4A6E200E06486 /* HomeScanID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScanID.swift; sourceTree = "<group>"; };
 		526ACE812EC4A6E400E06486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		526ACE842EC4A6E400E06486 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52F2D9F62EC511AB00D7D590 /* ScanImg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanImg.swift; sourceTree = "<group>"; };
+		52F2D9F82EC51AEB00D7D590 /* NavgiationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavgiationManager.swift; sourceTree = "<group>"; };
+		52F2D9FA2EC51C1500D7D590 /* CordinatorViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CordinatorViews.swift; sourceTree = "<group>"; };
+		52F2D9FC2EC51D4900D7D590 /* HomeScanFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScanFace.swift; sourceTree = "<group>"; };
+		52F2D9FE2EC51FAD00D7D590 /* ScanFaceID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanFaceID.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +62,14 @@
 			isa = PBXGroup;
 			children = (
 				526ACE7D2EC4A6E200E06486 /* EKYCApp.swift */,
-				526ACE7F2EC4A6E200E06486 /* ContentView.swift */,
+				526ACE7F2EC4A6E200E06486 /* HomeScanID.swift */,
 				526ACE812EC4A6E400E06486 /* Assets.xcassets */,
 				526ACE832EC4A6E400E06486 /* Preview Content */,
+				52F2D9F62EC511AB00D7D590 /* ScanImg.swift */,
+				52F2D9F82EC51AEB00D7D590 /* NavgiationManager.swift */,
+				52F2D9FA2EC51C1500D7D590 /* CordinatorViews.swift */,
+				52F2D9FC2EC51D4900D7D590 /* HomeScanFace.swift */,
+				52F2D9FE2EC51FAD00D7D590 /* ScanFaceID.swift */,
 			);
 			path = EKYC;
 			sourceTree = "<group>";
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				526ACE802EC4A6E200E06486 /* ContentView.swift in Sources */,
+				526ACE802EC4A6E200E06486 /* HomeScanID.swift in Sources */,
+				52F2D9F92EC51AEB00D7D590 /* NavgiationManager.swift in Sources */,
+				52F2D9FB2EC51C1500D7D590 /* CordinatorViews.swift in Sources */,
+				52F2D9FD2EC51D4900D7D590 /* HomeScanFace.swift in Sources */,
+				52F2D9F72EC511AB00D7D590 /* ScanImg.swift in Sources */,
+				52F2D9FF2EC51FAD00D7D590 /* ScanFaceID.swift in Sources */,
 				526ACE7E2EC4A6E200E06486 /* EKYCApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
